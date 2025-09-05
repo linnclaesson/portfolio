@@ -1,13 +1,8 @@
 import "./App.css";
+import { Router } from "../src/Routes/Router";
 
 function App() {
-  return (
-    <>
-      <h1 className="text-center text-3xl font-bold">
-        Welcome to my portfolio website
-      </h1>
-    </>
-  );
+  return <Router />;
 }
 
 export default App;
