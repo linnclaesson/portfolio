@@ -1,6 +1,9 @@
+import { Header } from "../Components/Header";
+
 export const HomePage = () => {
   return (
     <section className="flex h-full flex-col items-center justify-center bg-neutral-50">
+      <Header />
       <h1 className="text-center text-3xl font-bold">
         Welcome to my portfolio website
       </h1>
